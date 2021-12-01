@@ -36,7 +36,7 @@ public class Score {
 	}
 	
 	
-	public void Score(String sname) {
+	public Score(String sname) {
 		name = sname;
 	}
 

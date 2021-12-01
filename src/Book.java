@@ -20,12 +20,16 @@ public class Book {
 	public String getAuthorName() {
 		return author;
 	}
+	public String getAuthor() {
+		return author;
+	}
 	public void setBookName(String bookName) {
 		this.bookName =  bookName;
 	}
 	public void setAuthor(String author) {
 		this.author = author;
 	}
+
 	public void showBookInfo() {
 		System.out.println(getBookName() + ":" + getAuthorName());
 	}
